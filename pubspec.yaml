@@ -1,0 +1,32 @@
+name: mirror_wall
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  webview_flutter: ^4.10.0
+  flutter_inappwebview: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/asset/logo/google.png
+    - lib/asset/logo/opera.png
+    - lib/asset/logo/facebook.png
+    - lib/asset/logo/youtube.jpg
+    - lib/asset/logo/uc_browser.jpg
+    - lib/asset/logo/m.png
